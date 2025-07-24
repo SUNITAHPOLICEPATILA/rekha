@@ -31,4 +31,5 @@
   <input type="email" id="email" placeholder="example@s.amity.edu" class="w-full border px-4 py-2 rounded" pattern=".*@s\.amity\.edu" required>
 
  <!-- Password -->
+<div class="relative">
  
