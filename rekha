@@ -37,4 +37,5 @@
 </div>
  <!-- Confirm Password -->
  <input type="password" id="confirmPassword" placeholder="Confirm Password" class="w-full border px-4 py-2 rounded" required>
+ <!-- Eligibility -->
  
