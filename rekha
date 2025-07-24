@@ -40,5 +40,6 @@
  <!-- Eligibility -->
   <input type="number" step="0.01" id="result" placeholder="Previous Semester CGPA" class="w-full border px-4 py-2 rounded" required>
  <select id="arrears" class="w-full border px-4 py-2 rounded" required>
-
+ <option value="">Do you have arrears?</option>
+     
  
