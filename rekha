@@ -34,4 +34,5 @@
 <div class="relative">
  <input type="password" id="password" placeholder="Password" class="w-full border px-4 py-2 pr-10 rounded" required>
  <button type="button" onclick="togglePassword()" class="absolute top-2 right-2 text-xl" id="eye-icon">👁️</button>
+</div>
  
