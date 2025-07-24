@@ -24,4 +24,5 @@
  <li>Confirm you are not a robot</li>
     </ul>
 </div>
- 
+<form onsubmit="validateForm(event)" class="space-y-4">
+     
