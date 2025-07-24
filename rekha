@@ -26,4 +26,5 @@
 </div>
 <form onsubmit="validateForm(event)" class="space-y-4">
      <input type="text" id="name" placeholder="Full Name" class="w-full border px-4 py-2 rounded" required>
+<input type="text" id="sen" placeholder="SEN Number (e.g., A866)" class="w-full border px-4 py-2 rounded" required>
  
