@@ -13,4 +13,5 @@
  <h1 class="text-xl font-semibold">Amity Scholarship Login</h1>
  </div>
 <!-- Eligibility Criteria -->
+ <div class="bg-blue-50 border border-blue-200 rounded p-4 text-sm mb-4">
 
