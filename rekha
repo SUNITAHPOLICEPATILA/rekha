@@ -6,4 +6,5 @@
 <meta name="vie  wport" content="width=device-width, initial-scale=1.0" />
 <title>Amity Scholarship Login</title>
 <script src="https://cdn.tailwindcss.com"></script>
+<body class="bg-gray-100 text-gray-800">
 
