@@ -62,6 +62,7 @@
  <!-- OTP Section -->
  <div id="otp-section" class="hidden mt-4">
    <form onsubmit="validateOTPInput(event)">
+ <input type="text" id="otp" placeholder="Enter OTP" class="w-full border px-4 py-2 rounded mb-2" required>
 
 
  
