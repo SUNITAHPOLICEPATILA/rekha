@@ -42,5 +42,6 @@
  <select id="arrears" class="w-full border px-4 py-2 rounded" required>
  <option value="">Do you have arrears?</option>
      <option value="no">No</option>
-
+ <option value="yes">Yes</option>
+      
  
