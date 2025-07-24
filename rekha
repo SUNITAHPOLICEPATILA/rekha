@@ -36,4 +36,5 @@
  <button type="button" onclick="togglePassword()" class="absolute top-2 right-2 text-xl" id="eye-icon">👁️</button>
 </div>
  <!-- Confirm Password -->
+ <input type="password" id="confirmPassword" placeholder="Confirm Password" class="w-full border px-4 py-2 rounded" required>
  
