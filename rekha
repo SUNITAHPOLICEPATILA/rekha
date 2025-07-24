@@ -61,6 +61,7 @@
  </form>
  <!-- OTP Section -->
  <div id="otp-section" class="hidden mt-4">
-   
+   <form onsubmit="validateOTPInput(event)">
+
 
  
