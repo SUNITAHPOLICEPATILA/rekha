@@ -46,5 +46,7 @@
       </select>
  <label><input type="checkbox" id="studying" class="mr-2">Currently studying at Amity</label>
  <label><input type="checkbox" id="karnataka" class="mr-2">Resident of Karnataka</label>
+  <label><input type="checkbox" id="eligibility-check" class="mr-2">I confirm all eligibility conditions</label>
+
 
  
