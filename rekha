@@ -45,5 +45,6 @@
  <option value="yes">Yes</option>
       </select>
  <label><input type="checkbox" id="studying" class="mr-2">Currently studying at Amity</label>
+ <label><input type="checkbox" id="karnataka" class="mr-2">Resident of Karnataka</label>
 
  
