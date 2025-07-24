@@ -17,4 +17,15 @@
 <h2 class="font-semibold mb-2 text-blue-800">Eligibility Criteria:</h2>
 <ul class="list-disc list-inside text-gray-700 space-y-1">
 <li>Use your university email (example@s.amity.edu)</li>
+ <li>Minimum 7.0 CGPA in the last semester</li>
+ <li>No active backlogs or arrears</li>
+<li>Must be currently studying at Amity University</li>
+ <li>Must be a resident of Karnataka</li>
+ <li>Confirm you are not a robot</li>
+    </ul>
+</div>
+<form onsubmit="validateForm(event)" class="space-y-4">
+     <input type="text" id="name" placeholder="Full Name" class="w-full border px-4 py-2 rounded" required>
+<input type="text" id="sen" placeholder="SEN Number (e.g., A866)" class="w-full border px-4 py-2 rounded" required>
+<input type="text" id="phone" placeholder="Phone Number (10 digits)" class="w-full border px-4 py-2 rounded" pattern="\d{10}" required>
  
