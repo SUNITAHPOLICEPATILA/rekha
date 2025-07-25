@@ -70,6 +70,7 @@
 <p class="text-sm text-center">Or login with</p>
  <div class="flex justify-center gap-4 mt-2">
  <a href="https://accounts.google.com/o/oauth2/v2/auth" class="flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded">
+ <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" class="h-5 w-5"> Google
 
 
 
