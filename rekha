@@ -73,6 +73,7 @@
  <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" class="h-5 w-5"> Google
  </a>
  <a href="https://github.com/login/oauth/authorize" class="flex items-center gap-2 bg-gray-800 hover:bg-black text-white px-4 py-2 rounded">
+ <img src="https://www.svgrepo.com/show/475647/github-color.svg" alt="GitHub" class="h-5 w-5"> GitHub
 
 
 
