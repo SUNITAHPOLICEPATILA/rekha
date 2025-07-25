@@ -68,6 +68,7 @@
 </form> <!-- Social Login with Real Links -->
  <div class="mt-4" 
 <p class="text-sm text-center">Or login with</p>
+ <div class="flex justify-center gap-4 mt-2">
 
 
 
