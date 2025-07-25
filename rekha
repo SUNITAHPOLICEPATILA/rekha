@@ -66,7 +66,7 @@
 <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded">Verify OTP</button>
 </div>
 </form> <!-- Social Login with Real Links -->
-
+ <div class="mt-4">
 
 
  
