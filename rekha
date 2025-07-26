@@ -148,4 +148,7 @@ input.type = "text";
     if (otp === "123456") {
         alert("OTP Verified. Login Successful!");
       } else {
+ alert("Invalid OTP.");
+      }
+    }
 
