@@ -102,4 +102,7 @@ input.type = "text";
 
   function validateForm(event) {
       event.preventDefault();
-      const password = document.getElementById("password").value 
+    const confirm = document.getElementById("confirmPassword").value;
+      const email = document.getElementById("email").value;
+      const cgpa = parseFloat(document.getElementById("result").value);
+  const password = document.getElementById("password").value 
