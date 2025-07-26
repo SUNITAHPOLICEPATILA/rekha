@@ -151,4 +151,7 @@ input.type = "text";
  alert("Invalid OTP.");
       }
     }
+ </script>
+</body>
+</html>
 
