@@ -108,4 +108,10 @@ input.type = "text";
       const arrears = document.getElementById("arrears").value;
       const studying = document.getElementById("studying").checked;
       const karnataka = document.getElementById("karnataka").checked;
-      const password = document.getElementById("password").value 
+       const eligibility = document.getElementById("eligibility-check").checked;
+
+      if (!email.endsWith("@s.amity.edu")) {
+        alert("Email must be a valid Amity University email.");
+        return;
+      }
+const password = document.getElementById("password").value 
