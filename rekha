@@ -139,4 +139,8 @@ input.type = "text";
       alert("OTP Sent! (Demo)");
     }
 
+      }
+       function validateOTPInput(event) {
+      event.preventDefault();
+      const otp = document.getElementById("otp").value;
  
