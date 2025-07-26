@@ -140,7 +140,12 @@ input.type = "text";
     }
 
       }
-       function validateOTPInput(event) {
+         
+        
+ function validateOTPInput(event) {
       event.preventDefault();
       const otp = document.getElementById("otp").value;
- 
+    if (otp === "123456") {
+        alert("OTP Verified. Login Successful!");
+      } else {
+
