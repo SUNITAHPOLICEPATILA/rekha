@@ -87,6 +87,7 @@
  </footer>
  <script>
  function togglePassword() {
+ const input = document.getElementById("password");
 
 
 
