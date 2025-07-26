@@ -126,4 +126,8 @@ input.type = "text";
         alert("Please confirm all eligibility criteria.");
         return;
       }
+ if (password !== confirm) {
+        alert("Passwords do not match.");
+        return;
+      }
  
