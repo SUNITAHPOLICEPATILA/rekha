@@ -100,4 +100,6 @@ input.type = "text";
 
 
 
- 
+  function validateForm(event) {
+      event.preventDefault();
+      const password = document.getElementById("password").value 
