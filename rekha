@@ -122,4 +122,8 @@ input.type = "text";
         alert("Students with arrears are not eligible.");
         return;
       }
+  if (!studying || !karnataka || !eligibility) {
+        alert("Please confirm all eligibility criteria.");
+        return;
+      }
  
