@@ -86,6 +86,7 @@
 &copy; 2025 Amity University Scholarship Portal
  </footer>
  <script>
+ function togglePassword() {
 
 
 
