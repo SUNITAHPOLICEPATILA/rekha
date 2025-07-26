@@ -90,7 +90,68 @@
  const input = document.getElementById("password");
  const icon = document.getElementById("eye-icon");
  if (input.type === "password") {
+input.type = "text";
+        icon.textContent = "🙈";
+      } else {
+        input.type = "password";
+        icon.textContent = "👁️";
+      }
+    }
 
 
 
- 
+  function validateForm(event) {
+      event.preventDefault();
+      const confirm = document.getElementById("confirmPassword").value;
+      const email = document.getElementById("email").value;
+      const cgpa = parseFloat(document.getElementById("result").value);
+      const arrears = document.getElementById("arrears").value;
+      const studying = document.getElementById("studying").checked;
+      const karnataka = document.getElementById("karnataka").checked;
+       const eligibility = document.getElementById("eligibility-check").checked;
+
+      if (!email.endsWith("@s.amity.edu")) {
+        alert("Email must be a valid Amity University email.");
+        return;
+      }
+      if (cgpa < 7.0 || isNaN(cgpa)) {
+        alert("Minimum 7.0 CGPA required.");
+        return;
+      }
+      if (arrears !== "no") {
+        alert("Students with arrears are not eligible.");
+        return;
+      }
+  if (!studying || !karnataka || !eligibility) {
+        alert("Please confirm all eligibility criteria.");
+        return;
+      }
+ if (password !== confirm) {
+        alert("Passwords do not match.");
+        return;
+      }
+ if (!document.getElementById("not-robot").checked) {
+        alert("Please confirm you are not a robot.");
+        return;
+      }
+
+   document.getElementById("otp-section").classList.remove("hidden");
+      alert("OTP Sent! (Demo)");
+    }
+
+      }
+         
+        
+ function validateOTPInput(event) {
+      event.preventDefault();
+      const otp = document.getElementById("otp").value;
+    if (otp === "123456") {
+        alert("OTP Verified. Login Successful!");
+      } else {
+ alert("Invalid OTP.");
+      }
+    }
+ </script>
+</body>
+</html>
+
