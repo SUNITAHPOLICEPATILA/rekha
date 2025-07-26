@@ -130,4 +130,9 @@ input.type = "text";
         alert("Passwords do not match.");
         return;
       }
+ if (!document.getElementById("not-robot").checked) {
+        alert("Please confirm you are not a robot.");
+        return;
+      }
+
  
