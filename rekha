@@ -114,8 +114,12 @@ input.type = "text";
         alert("Email must be a valid Amity University email.");
         return;
       }
- if (cgpa < 7.0 || isNaN(cgpa)) {
+      if (cgpa < 7.0 || isNaN(cgpa)) {
         alert("Minimum 7.0 CGPA required.");
+        return;
+      }
+      if (arrears !== "no") {
+        alert("Students with arrears are not eligible.");
         return;
       }
  
