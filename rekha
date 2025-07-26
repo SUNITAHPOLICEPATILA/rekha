@@ -74,6 +74,22 @@
  </a>
  <a href="https://github.com/login/oauth/authorize" class="flex items-center gap-2 bg-gray-800 hover:bg-black text-white px-4 py-2 rounded">
  <img src="https://www.svgrepo.com/show/475647/github-color.svg" alt="GitHub" class="h-5 w-5"> GitHub
+ </a>
+ </div>
+  </div>
+ <!-- New User Link -->
+
+    <p class="text-sm text-center mt-4">New User? <a href="#" class="text-blue-600 hover:underline">Register here</a></p>
+ </div>
+  <!-- Footer -->
+<footer class="text-center mt-10 text-xs text-gray-500">
+&copy; 2025 Amity University Scholarship Portal
+ </footer>
+ <script>
+ function togglePassword() {
+ const input = document.getElementById("password");
+ const icon = document.getElementById("eye-icon");
+ if (input.type === "password") {
 
 
 
